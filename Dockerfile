@@ -7,5 +7,10 @@ RUN conda install \
     'pyldavis==2.1*' \
     'pypdf2==1.26*'
     
+RUN conda install pytorch torchvision torchaudio cpuonly -c pytorch
+RUN conda install -c conda-forge transformers
+
+RUN conda install -c conda-forge tensorflow
+    
 RUN conda install -c conda-forge nltk
 RUN python -m nltk.downloader stopwords
