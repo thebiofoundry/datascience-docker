@@ -12,5 +12,3 @@ RUN python -m nltk.downloader stopwords
     
 RUN conda install pytorch torchvision torchaudio cpuonly -c pytorch
 RUN conda install -c conda-forge transformers
-
-RUN conda install -c anaconda tensorflow
