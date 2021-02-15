@@ -3,7 +3,7 @@ The Biofoundry Data Science Dockerfile
 
 Dockerhub: biofoundry/datascience-docker
 
-This Dockerfile is an extension of jupyter/datascience-notebook and is the image that is used to build The Biofoundry Jupyterhub. Libraries that are required to be added to Jupyterhub can be appended to this Dockerfile.
+This Dockerfile is an extension of jupyter/datascience-notebook and is the image that is used to build The Biofoundry Jupyterhub. Libraries that are required to be added to Jupyterhub can be appended to this Dockerfile..
 
 ## Rebuilding the Docker Image
 
